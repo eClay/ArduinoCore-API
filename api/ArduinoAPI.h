@@ -23,6 +23,21 @@
 // version 1.0.0
 #define ARDUINO_API_VERSION 10000
 
+#include "WTypes.h"
+
+#include "WAnalog.h"
+#include "WCharacter.h"
+#include "WDelay.h"
+#include "WDigital.h"
+#include "WInterrupts.h"
+#include "WMath.h"
+#include "WMemory.h"
+#include "WPulse.h"
+#include "WRandom.h"
+#include "WShift.h"
+#include "WTime.h"
+#include "WTone.h"
+
 #include "Binary.h"
 
 #ifdef __cplusplus
@@ -39,17 +54,6 @@
 #include "Stream.h"
 #include "Udp.h"
 #include "USBAPI.h"
-#include "WCharacter.h"
 #endif
-
-/* Standard C library includes */
-#include <stdlib.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <string.h>
-#include <math.h>
-
-// Misc Arduino core functions
-#include "Common.h"
 
 #endif
