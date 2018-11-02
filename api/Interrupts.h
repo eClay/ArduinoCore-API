@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include "Common.h"
 
 template <typename T>
 using voidTemplateFuncPtrParam =  void (*)(T param);
