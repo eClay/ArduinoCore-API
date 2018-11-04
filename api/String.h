@@ -25,7 +25,6 @@
 
 #include "Printable.h"
 
-#include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
