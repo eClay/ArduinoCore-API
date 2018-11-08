@@ -1,59 +1,30 @@
-/*
-  Arduino API main include
-  Copyright (c) 2016 Arduino LLC. All right reserved.
+#ifndef ARDUINO_API_H_
+#define ARDUINO_API_H_
 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
+#include "A_Analog.h"
+#include "A_Character.h"
+#include "A_Client.h"
+#include "A_Delay.h"
+#include "A_Digital.h"
+#include "A_HardwareI2C.h"
+#include "A_HardwareSerial.h"
+#include "A_Interrupts.h"
+#include "A_Math.h"å
+#include "A_Memory.h"
+#include "A_PluggableUSB.h"
+#include "A_Print.h"
+#include "A_Printable.h"
+#include "A_Pulse.h"
+#include "A_Random.h"
+#include "A_RingBuffer.h"
+#include "A_Server.h"
+#include "A_Shift.h"
+#include "A_Stream.h"
+#include "A_String.h"
+#include "A_Time.h"
+#include "A_Tone.h"
+#include "A_Types.h"
+#include "A_Udp.h"
+#include "A_USBAPI.h"
 
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-*/
-
-#ifndef ARDUINO_API_H
-#define ARDUINO_API_H
-
-// version 1.0.0
-#define ARDUINO_API_VERSION 10000
-
-#include "WTypes.h"
-
-#include "WAnalog.h"
-#include "WCharacter.h"
-#include "WDelay.h"
-#include "WDigital.h"
-#include "WInterrupts.h"
-#include "WMath.h"
-#include "WMemory.h"
-#include "WPulse.h"
-#include "WRandom.h"
-#include "WShift.h"
-#include "WTime.h"
-#include "WTone.h"
-
-#include "Binary.h"
-
-#ifdef __cplusplus
-#include "Client.h"
-#include "HardwareI2C.h"
-#include "HardwareSerial.h"
-#include "Interrupts.h"
-#include "IPAddress.h"
-#include "Print.h"
-#include "Printable.h"
-#include "PluggableUSB.h"
-#include "Server.h"
-#include "String.h"
-#include "Stream.h"
-#include "Udp.h"
-#include "USBAPI.h"
-#endif
-
-#endif
+#endif  // ARDUINO_API_H_
